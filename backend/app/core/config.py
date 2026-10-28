@@ -89,6 +89,21 @@ class Settings(BaseSettings):
     SMTP_PASSWORD: Optional[str] = None
     SMTP_FROM_EMAIL: Optional[str] = None
 
+    @field_validator(
+        "DATABASE_URL",
+        "EMBEDDING_DIMENSIONS",
+        "SMTP_HOST",
+        "SMTP_USERNAME",
+        "SMTP_PASSWORD",
+        "SMTP_FROM_EMAIL",
+        mode="before",
+    )
+    @classmethod
+    def treat_empty_strings_as_none(cls, v):
+        if isinstance(v, str) and not v.strip():
+            return None
+        return v
+
     @property
     def cors_origins(self) -> List[str]:
         if not self.CORS_ALLOWED_ORIGINS:
