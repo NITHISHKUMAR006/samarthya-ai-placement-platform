@@ -9,7 +9,7 @@
 
 | Resource | Link |
 |---|---|
-| **🌐 Live Web Application** | **[https://samarthya-placemet.nithishkps.workers.dev/](https://samarthya-placemet.nithishkps.workers.dev/)** |
+| **🌐 Live Web Application** | **[https://samarthya-placement.nithishkps.workers.dev/](https://samarthya-placement.nithishkps.workers.dev/)** |
 | **💻 GitHub Repository** | **[https://github.com/NITHISHKUMAR006/samarthya-ai-placement-platform](https://github.com/NITHISHKUMAR006/samarthya-ai-placement-platform)** |
 | **⚡ Status** | Active • Cloudflare Workers + Supabase Backend |
 
