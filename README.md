@@ -5,6 +5,14 @@
 
 ---
 
+## 🚀 Live Demo & Deployment
+
+| Resource | Link |
+|---|---|
+| **🌐 Live Web Application** | **[https://samarthya-placemet.nithishkps.workers.dev/](https://samarthya-placemet.nithishkps.workers.dev/)** |
+| **💻 GitHub Repository** | **[https://github.com/NITHISHKUMAR006/samarthya-ai-placement-platform](https://github.com/NITHISHKUMAR006/samarthya-ai-placement-platform)** |
+| **⚡ Status** | Active • Cloudflare Workers + Supabase Backend |
+
 ## 1. Project Overview
 
 **SAMARTHYA AI** is an enterprise-grade, secure, multi-tenant web application engineered for universities, colleges, students, faculty, and placement officers. The platform bridges institutional curriculum training with corporate recruitment criteria through standardized diagnostic assessments, deterministic skill-gap intelligence, AI document ingestion (PDF, PPT, PPTX), and personalized placement readiness tracking.
